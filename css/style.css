@@ -1,0 +1,23 @@
+picture {
+    max-width: 90%;
+}
+img{
+    max-width: 90%;
+}
+li {
+    width: 50%;
+    float: left;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 700px){
+    li{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px){
+    li {
+        width: 25%;
+        float: left;
+    }
+}
